@@ -5,7 +5,12 @@
     text-decoration: none;
 }
 
-
+body {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 
 .container {
     display: flex;
@@ -83,7 +88,7 @@ img-section {
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 10px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 .blogs {
@@ -142,6 +147,15 @@ img-section {
     margin-right: 300px;
     margin-top: 70px;
 }
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 500px;
+}
+
+
 
 /* -------------------
 Upcomming section
