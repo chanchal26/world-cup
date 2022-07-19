@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 70px;
+    height: 550px;
+
+}
+
+.text-section {
+    width: 50%;
+    color: white;
+}
+
+img-section {
+    width: 50%;
+}
+
+.text-1 {
+    font-size: 70px;
+}
+
+.text-2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.link {
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+.main-button {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+    background-color: black;
+    align-items: center;
+    border-radius: 10px;
+    height: 260px;
+    margin-right: 20px;
+}
+
+.btn-1 {
+    background-color: white;
+    width: 50%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-2 {
+    background-color: #fff;
+    width: 50%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn-3 {
+    background-color: red;
+    width: 50%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.blogs {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.details {
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+}
+
+.details-button {
+    padding: 4px 8px;
+}
+
+.btn-0 {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+/* ----------------
+   footer section 
+-------------------*/
+.footer-section {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 250px;
+}
+
+.f-heading {
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.horizontal {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 70px;
+}
+
+/* -------------------
+Upcomming section
+------------------- */
+.up-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.up-section {
+    border: 1px solid rgb(196, 191, 191);
+    width: 312px;
+    height: 242px;
+}
+
+.up-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.up-section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.upper-1 {
+    margin-right: 5px;
+}
+
+.upper-2 {
+    margin-left: 5px;
+}
