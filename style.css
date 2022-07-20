@@ -194,3 +194,63 @@ Upcomming section
 .upper-2 {
     margin-left: 5px;
 }
+
+/* ---------------------
+   for mobile device
+--------------------- */
+@media screen and (max-width: 576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
+    }
+
+    .text-section {
+        margin-right: 100px;
+    }
+
+
+    .img-section {
+        margin-top: 20px;
+    }
+
+    .blogs {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-button {
+        width: 70%;
+    }
+
+    .detail {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+
+    .footer-section {
+        height: 100%;
+    }
+
+    .last-section {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
