@@ -295,6 +295,10 @@ for tablet device
 
     }
 
+    .img-section img {
+        margin-top: 25px;
+    }
+
     .blogs {
         flex-direction: column;
         display: flex;
