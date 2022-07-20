@@ -206,7 +206,7 @@ Upcomming section
         width: fit-content;
         justify-content: center;
         align-items: center;
-        margin-right: 150px;
+        margin: 0;
     }
 
     .text-section {
@@ -244,12 +244,16 @@ Upcomming section
         justify-content: center;
         align-items: center;
         gap: 30px;
-
+        margin: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     .icon {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0px;
+        padding-bottom: 20px;
     }
 }
