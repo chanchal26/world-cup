@@ -106,11 +106,20 @@ img-section {
 
 .details-button {
     padding: 4px 8px;
+    gap: 5px;
 }
 
 .btn-0 {
     padding: 5px;
     border-radius: 3px;
+}
+
+.fa-clock {
+    margin: 10px;
+}
+
+.fa-message {
+    margin: 10px;
 }
 
 .detail {
@@ -155,6 +164,17 @@ img-section {
     margin: 30px 500px;
 }
 
+.view-all {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    display: none;
+}
+
+.view {
+    padding: 10px 20px;
+    background-color: tomato;
+}
 
 
 /* -------------------
@@ -210,15 +230,6 @@ Upcomming section
 
     }
 
-    .text-section {
-        margin-right: 100px;
-    }
-
-
-    .img-section {
-        margin-top: 20px;
-    }
-
     .blogs {
         flex-direction: column;
         display: flex;
@@ -261,6 +272,90 @@ Upcomming section
     .up-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+}
+
+/* ------------------
+for tablet device
+-------------------- */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .blogs {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-button {
+        width: 70%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .btn-1 {
+        border: 2px solid black;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .btn-2 {
+        width: 100%;
+    }
+
+    .btn-3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .view-all {
+        display: block;
+    }
+
+    .detail {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+
+    .footer-section {
+        height: 100%;
+    }
+
+    .last-section {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+
+    .up-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         margin: 20px;
     }
 }
